@@ -70,7 +70,7 @@
             </objects>
             <point key="canvasLocation" x="87" y="597"/>
         </scene>
-        <!--Movie Grid View Controller-->
+        <!--Superhero-->
         <scene sceneID="c73-20-E9X">
             <objects>
                 <viewController id="dzF-Uq-aJi" customClass="MovieGridViewController" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
@@ -80,7 +80,7 @@
                         <viewLayoutGuide key="safeArea" id="Ydd-D0-fsD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4rD-On-ZIZ"/>
+                    <navigationItem key="navigationItem" title="Superhero" id="4rD-On-ZIZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0A-zX-tev" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
