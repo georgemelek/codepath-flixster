@@ -52,6 +52,7 @@
                                             <outlet property="posterView" destination="gEV-Di-9Lk" id="xZ6-14-0Z1"/>
                                             <outlet property="synopsisLabel" destination="bIR-4V-kTm" id="UOw-zl-yGf"/>
                                             <outlet property="titleLabel" destination="UQ7-sM-eHz" id="gtv-P4-OaI"/>
+                                            <segue destination="hhS-rk-gAS" kind="show" id="pr2-WA-a03"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -67,7 +68,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926.08695652173924" y="75.815217391304358"/>
+            <point key="canvasLocation" x="871" y="50"/>
+        </scene>
+        <!--Movies Details View Controller-->
+        <scene sceneID="nvW-GX-Pbw">
+            <objects>
+                <viewController id="hhS-rk-gAS" customClass="MoviesDetailsViewController" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NyJ-Ac-0BQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="CqW-zz-ecE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mL5-eI-eCi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ud7-wx-dUg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1629" y="50"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5o7-RG-xTz">
@@ -85,7 +102,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iP4-O2-O58" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="75.815217391304358"/>
+            <point key="canvasLocation" x="88" y="50"/>
         </scene>
     </scenes>
     <resources>
